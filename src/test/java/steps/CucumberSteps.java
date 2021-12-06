@@ -22,6 +22,7 @@ public class CucumberSteps extends BaseTest {
     @Given("I am on products page")
     public void iAmOnProductsPage() {
         driver.get("https://gigatron.rs/tv-audio-video/slusalice");
+        System.out.println("Hello from GitHub!");
     }
 
     @When("I click Sort by {string}")
